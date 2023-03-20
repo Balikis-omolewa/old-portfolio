@@ -5028,10 +5028,7 @@ h3 a {
     background: url(../images/hero/wave-hero.svg) center top no-repeat
 }
 
-.bg-light-ylo {
-    background: #e9f5ff
-}
-
+           
 .up-curvs {
     top: -50px
 }
@@ -5651,7 +5648,7 @@ table.border {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #fff
+    background: #fff;
 }
 
 .mob-nav2 li,
