@@ -12,17 +12,24 @@
     <meta name="theme-color" content="#8bc0d9">
     <!--website-favicon-->
     <link href="images/logo.png" rel="icon">
-    <!--plugin-css-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/plugin.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- template-style-->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <link href="css/darkmode.css" rel="stylesheet">
+     <!--plugin-css-->
+     <link href="css/bootstrap.min.min.css" rel="stylesheet">
+     <link href="css/plugin.min.min.css" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+     <!-- template-style-->
+     <link href="css/style.min.css" rel="stylesheet">
+     <link href="css/responsive.min.css" rel="stylesheet">
+     <link href="css/darkmode.min.css" rel="stylesheet">
 
-    
+     <script type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("1EeW73hRNQpzr2td5");
+  })();
+</script>
 </head>
 
 <body>
@@ -56,7 +63,7 @@
                         </li>
                         
                         <li>
-                            <a href="service.html" class="menu-links">Services</a>
+                            <a href="#services" class="menu-links">Services</a>
                         </li>
                         
                         <li>
@@ -101,7 +108,7 @@
                         </li>
                        
                         <li>
-                            <a href="service.html" class="menu-links">Services</a>
+                            <a href="#services" class="menu-links">Services</a>
                         </li>
 
                         <li>
@@ -111,38 +118,11 @@
                            
                         </li>
                         <li >
-                            <a href="images/CV_Nasirudeen_Balikis_Omotunrayo.pdf" class="menu-links">Resume</a>
+                            <a href="images/CV_Nasirudeen_Balikis_Omotunrayo.pdf/" class="menu-links">Resume</a>
                             
                         </li>
                 </ul>
-                <ul class="bottom-nav">
-                    <li class="prb">
-                        <a href="tel:+2349066811178">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
-							   <path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
-								  c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
-								  c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
-								  C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z"
-								  />
-							</svg>
-						 </a>
-                    </li>
-                    <li class="prb">
-                        <a href="/cdn-cgi/l/email-protection#c4b7aba9a1b3a1a6a9a1a0ada584a3a9a5ada8eaa7aba9">
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-							   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-							   <path d="M0 0h24v24H0z" fill="none"/>
-							</svg>
-						 </a>
-                    </li>
-                    <li class="prb">
-                        <a href="omolewabalikis149@gmail.com">
-							<svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
-							   <path d="m23.309 14.547c1.738-7.81-5.104-14.905-13.139-13.543-4.362-2.707-10.17.352-10.17 5.542 0 1.207.333 2.337.912 3.311-1.615 7.828 5.283 14.821 13.311 13.366 5.675 3.001 11.946-2.984 9.086-8.676zm-7.638 4.71c-2.108.867-5.577.872-7.676-.227-2.993-1.596-3.525-5.189-.943-5.189 1.946 0 1.33 2.269 3.295 3.194.902.417 2.841.46 3.968-.3 1.113-.745 1.011-1.917.406-2.477-1.603-1.48-6.19-.892-8.287-3.483-.911-1.124-1.083-3.107.037-4.545 1.952-2.512 7.68-2.665 10.143-.768 2.274 1.76 1.66 4.096-.175 4.096-2.207 0-1.047-2.888-4.61-2.888-2.583 0-3.599 1.837-1.78 2.731 2.466 1.225 8.75.816 8.75 5.603-.005 1.992-1.226 3.477-3.128 4.253z"/>
-							</svg>
-						 </a>
-                    </li>
-                </ul>
+               
             </nav>
         </div>
     </header>
@@ -156,24 +136,25 @@
             </div>
             <div class="form-block sidebarform">
                 <h4>Let's Get Started</h4>
+            
                 <form id="contactForm" data-bs-toggle="validator" class="shake mt20">
                     <div class="row">
                         <div class="form-group col-sm-12">
-                            <input type="text" id="name" placeholder="Enter name" required data-error="Please fill Out">
+                            <input type="text" name=""name id="name" placeholder="Enter name" required data-error="Please fill Out">
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group col-sm-12">
-                            <input type="email" id="email" placeholder="Enter email" required>
+                            <input type="email name="email" id="email" placeholder="Enter email" required>
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-sm-12">
-                            <input type="text" id="mobile" placeholder="Enter mobile" required data-error="Please fill Out">
+                            <input type="text" name="mobile" id="mobile" placeholder="Enter mobile" required data-error="Please fill Out">
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group col-sm-12">
-                            <select name="Dtype" id="Dtype" required>
+                            <select name="service" id="Dtype" required>
 					  <option value="">Select Service</option>
 					  <option value="1">Business Website Design</option>
                       <option value="2">Ecommerce Website Design</option>
@@ -186,7 +167,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
                         <div class="help-block with-errors"></div>
                     </div>
                     <button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Submit <span class="circle"></span></button>
@@ -233,6 +214,7 @@
         </div>
     </div>
     <!--end sidebar -->
+
     <br> <br> <br><br> <br> <br>
     </section>
     <!--End About-->
@@ -581,16 +563,61 @@
     </footer>
     <!--End Footer-->
 
-    <!-- js placed at the end of the document so the pages load faster -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/plugin.min.js"></script>
-    <script src="js/preloader.js"></script>
-    <script src="js/dark-mode.js"></script>
-    <!--common script file-->
-    <script src="js/main.js"></script>
+   <!-- js placed at the end of the document so the pages load faster -->
+   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+   <script src="js/vendor/modernizr-3.5.0.min.min.js"></script>
+   <script src="js/jquery.min.min.js"></script>
+   <script src="js/bootstrap.bundle.min.min.js"></script>
+   <script src="js/plugin.min.min.js"></script>
+   <script src="js/preloader.min.js"></script>
+   <script src="js/dark-mode.min.js"></script>
+   <!--common script file-->
+   <script src="js/main.min.js"></script>
+
+   <script>
+       function sendMail(){
+          var templateParams= {
+              name:document.getElementById("name").value,
+              email:document.getElementById("email").value,
+              mobile:document.getElementById("mobile").value,
+              service:document.getElementById("Dtype").value,
+              service:document.getElementById("message").value,
+          };
+      
+      
+      const serviceID="service_gqpbsag";
+      const templateID="template_3g15hb8";
+      
+      emailjs.send(serviceID,templateID,templateParams)
+      .then((res)=>{
+              document.getElementById("name").value="";
+              document.getElementById("email").value="";
+              document.getElementById("mobile").value="";
+              document.getElementById("Dtype").value="";
+              document.getElementById("message").value="";
+              console.log(res);
+              alert("Thank you! Your message sent successfully, we will get back to you soon.");
+          })
+          .catch((err)=>console.log(err)); 
+      }
+      //document.querySelector(".btn").addEventListener("click",function()
+      {
+       
+        //var x = document.forms ["myForm"]["name"].value;
+       // var x = document.forms ["myForm"]["email"].value;
+        //var x = document.forms ["myForm"]["phone"].value;
+       // var x = document.forms ["myForm"]["industry"].value;
+    
+         // if (x == "" ) {
+          //  alert("Field is required");
+         //   return false;
+        //}
+        else{
+          sendMail();
+          }
+      }; //);
+      
+  </script>
 </body>
 
 </html>
