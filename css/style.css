@@ -540,6 +540,7 @@ header .dropdown-menu {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+
     
 }
 
@@ -604,6 +605,7 @@ div.custom-nav>ul>li.sbmenu>a:after {
 
 .dsk-logo .nav-brand img {
     max-height: 50px;
+   
     
 }
 
@@ -1057,8 +1059,8 @@ a.play-video::after {
 .hero-section {
     position: relative;
     padding-top: 100px;
-    padding-bottom: 100px;
-    height: 100vh;
+    padding-bottom: 0px;
+    height: 90vh;
     align-items: center;
     display: grid
 }
