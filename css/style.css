@@ -1058,7 +1058,7 @@ a.play-video::after {
 
 .hero-section {
     position: relative;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 0px;
     height: 90vh;
     align-items: center;
@@ -3510,7 +3510,7 @@ footer.ftshap:before {
     transform: translateZ(20px)
 }
 
-.hexagon {
+.boxes {
     transform-style: preserve-3d;
     transform: perspective(1000px);
     text-align: center;
@@ -3524,19 +3524,19 @@ footer.ftshap:before {
     box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, .059), 0 8.2px 8.9px -30px rgba(0, 0, 0, .071), 0 25px 40px -30px rgba(0, 0, 0, .2)
 }
 
-.hexa1 {
+.box1 {
     border: 2px solid #ffc3fe
 }
 
-.hexa2 {
+.box2 {
     border: 2px solid #ffe6ba
 }
 
-.hexa3 {
+.box3 {
     border: 2px solid #addaff
 }
 
-.hexa4 {
+.box4 {
     border: 2px solid #ffbaba
 }
 
@@ -7678,7 +7678,7 @@ html .mt15 {
     margin-top: 60px
 }
 
-.freelancerv2 .hexagon {
+.freelancerv2 .boxes {
     background: #05081a
 }
 
@@ -9572,6 +9572,7 @@ a.smllbtnn {
       border-bottom: 2px solid #e60072;
       background-color: transparent;
       border-radius: 500px;
+      margin: 0%;
       
   }
 
@@ -9584,3 +9585,68 @@ a.smllbtnn {
   .row:after{
 content: ""; display: table; clear: both;
   }
+
+
+  counter-number {
+    transform: translateZ(20px)
+}
+
+  .boxes {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    text-align: center;
+    min-width: 100px;
+    height: auto;
+    padding: 20px 30px;
+    margin: 0 20px;
+    background: #fff;
+    border-radius: 8px 40px;
+    -webkit-box-shadow: 0 3.4px 2.7px -30px rgba(0,0,0,.059),0 8.2px 8.9px -30px rgba(0,0,0,.071),0 25px 40px -30px rgba(0,0,0,.2);
+    box-shadow: 0 3.4px 2.7px -30px rgba(0,0,0,.059),0 8.2px 8.9px -30px rgba(0,0,0,.071),0 25px 40px -30px rgba(0,0,0,.2)
+}
+
+.box1 {
+    border: 2px solid #ffc3fe
+}
+
+.box2 {
+    border: 2px solid #ffe6ba
+}
+
+.box3 {
+    border: 2px solid #addaff
+}
+
+.box4 {
+    border: 2px solid #ffbaba
+}
+
+.counter-no span {
+    font-size: 50px;
+    font-weight: 700;
+    color: #050748
+}
+
+.counter-no p {
+    font-size: 20px;
+    margin: 10px 0 0;
+    font-weight: 500
+}
+
+.counter-no {
+    display: inline-block;
+   
+}
+.container .box-container{
+width: 100%;
+padding-right: var(--bs-gutter-x,.75rem);
+padding-left: var(--bs-gutter-x,.75rem);
+margin-right: auto;
+margin-left: auto;
+}
+@media screen and (max-width: 375px){
+    .counter-no {
+        width: 100%;
+       
+    }
+}

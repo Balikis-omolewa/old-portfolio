@@ -22,6 +22,12 @@
     <link href="css/responsive.min.css" rel="stylesheet">
     <link href="css/darkmode.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
 
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -38,7 +44,7 @@
     <!--Start Preloader -->
     <div class="onloadpage" id="page_loader">
         <div class="pre-content">
-            <div class="logo-pre"><img src="images/logo.png" alt="Logo" class="img-fluid" /></div>
+            <div class="logo-pre"><img src="images/logo.png" alt="Logo" class="img-fluid"/></div>
             <div class="pre-text- text-radius text-light text-animation bg-b"></div>
         </div>
     </div>
@@ -58,10 +64,11 @@
                         <a href="index.html" class="menu-links">/ Home /</a>
                          </li>
                         <li>
-                            
-                            <a href="about.html" class="menu-links">/ About /</a>
+                         <a href="#about" class="menu-links">/ About /</a>
                         </li>
-                        
+                         <li>
+                        <a href="#skills" class="menu-links">/ Experience /</a>
+                         </li>
                         <li>
                           <a href="#services" class="menu-links">/ Services /</a>
                         </li>
@@ -97,9 +104,11 @@
                      <li><a href="index.html" class="menu-links">/ Home /</a>
                             
                         </li>
-                            <li><a href="about.html" class="menu-links">/ About /</a>
+                            <li><a href="#about" class="menu-links">/ About /</a>
                         </li>
-                        
+                        <li>
+                        <a href="#skills" class="menu-links">/ Experience /</a>
+                         </li>
                         <li><a href="#services" class="menu-links">/ Services /</a>
                         </li>
                         
@@ -213,7 +222,7 @@
                 <div class="row">
                     <div class="col-lg-6 v-center">
                         <div class="header-heading">
-                            <h1 class="wow fadeInUp" data-wow-delay=".2s">Hi, I'm <span style="color: #afa09d;"> Balikis <span style="color:  #e60072;
+                            <h1 class="wow fadeInUp" data-wow-delay=".2s">Hi, I'm <span style="color: #afa09d;" data-cursor-text="Balikis Omolewa" data-cursor-stick > Balikis <span style="color:  #e60072;
                             "> Omolewa</span> </span></h1>
                            <p class="wow fadeInUp" data-wow-delay=".4s">A freelance web developer and a graphics designer, 
                                 I am creative person driven by passion for responsive website design and have an artistic approach towards everthing I create. </p>
@@ -230,17 +239,81 @@
                     </div>
               
                     <div class="col-lg-6 wow fadeIn" data-wow-delay=".4s">
-                       <div class="single-image me"><img src="images/hero/me.png" alt="hero image"  class="img-fluid omolewa"></div>
+                       <div class="single-image me"><img src="images/hero/me.png" alt="hero image"  class="img-fluid omolewa" data-cursor-img="images/hero/me.png"></div>
                     </div>
                 </div>
             </div>  
         </div>
 
     </section>
-    
-    <!--Start About-->
+   <!--Start hero-->
+
+ <!--Start About-->
+ <section class="about-lead-gen pad-tb" id="about">
+    <div class="container box-container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="common-heading text-l">
+                    <span>Get to know </span>
+                    <h2 class="mb20">About me</h2>
+                    <p>Frontend Web Developer with proven experience in creating and maintaining codebase for reusability. Passionate
+                        about learning and development with a desire to apply skills to build and maintain functional, attractive and
+                        responsive websites. Well-versed in numerous programming languages JavaScript, React, Bootstrap, PHP, SQL,
+                        Graphics, WordPress, SEO, GIT</p>
+                </div>
+                <a href="about.html" class="btn-main bg-btn3 lnk mt20"> More About me <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+            </div>
+
+            <div class="col-lg-6 lead-intro-">
+                <div class="counter-facts">
+                    <div class="counter-no mb20 wow.bounceIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+                        <div class="boxes box1" data-tilt-max="20" data-tilt-speed="1000" style="will-change: transform; transform: perspective(1000px); rotateX (0deg) rotateY(0deg) scale(1,1,1);">
+                         <div class="counter-number">
+                           <span class="counter">4</span>
+                            <span>y</span>
+                            <p>Working Experience</p>
+                        </div>
+                        </div>
+                        </div>   
+                        <div class="counter-no mb20 wow.bounceIn" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceIn;">
+                            <div class="boxes box2" data-tilt-max="20" data-tilt-speed="1000" style="will-change: transform; transform: perspective(1000px); rotateX (0deg) rotateY(0deg) scale(1,1,1);">
+                              <div class="counter-number">
+                                <span class="counter">100</span>
+                                <span>+</span>
+                                  <p> Happy Client</p>
+                                    </div>
+                                     </div>
+                                      </div>        
+                                    
+                                    <div class="counter-no mt20 wow.bounceIn" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: bounceIn;">
+                                        <div class="boxes box3" data-tilt-max="20" data-tilt-speed="1000" style="will-change: transform; transform: perspective(1000px); rotateX (0deg) rotateY(0deg) scale(1,1,1);">
+                                        <div class="counter-number">
+                                           
+                                            <span class="counter">24</span>
+                                            <span>/</span><span>7</span>
+                                            <p>Always Online </p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="counter-no mt20 wow.bounceIn" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: bounceIn;">
+                                            <div class="boxes box4" data-tilt-max="20" data-tilt-speed="1000" style="will-change: transform; transform: perspective(1000px); rotateX (0deg) rotateY(0deg) scale(1,1,1);">
+                                            <div class="counter-number">
+                                                <span class="counter">50</span>
+                                                <span>+</span>
+                                                <p>Projects Completed</p>
+                                            </div>
+                                            </div>
+                                            </div>                     
+            </div>           
+         
+        </div> 
+        </div>
+    </div>
+</section>
+<!--End About-->
+
    <!--Start About-->
-   <section class="about-lead-gen pad-tb" style="margin-top: -40px;" id="next">
+   <section class="about-lead-gen pad-tb" style="margin-top: -40px;" id="skills">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -629,7 +702,8 @@
                     <div class="col-lg-2 col-sm-6">
                         <h5>Featured Links</h5>
                         <ul class="footer-address-list link-hover">
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Experience</a></li>
                             <li><a href="#services">Service</a></li>
                             <li><a href="#mywork">Portfolio</a></li>
                             <li><a href="https://bln.hashnode.dev/">Blog</a></li>
@@ -691,6 +765,46 @@
     <!--common script file-->
     <script src="js/main.min.js"></script>
 
+ <script>
+        const cursor = new MouseFollower({
+    el: null,
+    container: document.body,
+    className: 'mf-cursor',
+    innerClassName: 'mf-cursor-inner',
+    textClassName: 'mf-cursor-text',
+    mediaClassName: 'mf-cursor-media',
+    mediaBoxClassName: 'mf-cursor-media-box',
+    iconSvgClassName: 'mf-svgsprite',
+    iconSvgNamePrefix: '-',
+    iconSvgSrc: '',
+    dataAttr: 'cursor',
+    hiddenState: '-hidden',
+    textState: '-text',
+    iconState: '-icon',
+    activeState: '-active',
+    mediaState: '-media',
+    stateDetection: {
+        '-pointer': 'a,button',
+        '-hidden': 'iframe'
+    },
+    visible: true,
+    visibleOnState: false,
+    speed: 0.55,
+    ease: 'expo.out',
+    overwrite: true,
+    skewing: 0,
+    skewingText: 0,
+    skewingIcon: 2,
+    skewingMedia: 2,
+    skewingDelta: 0.001,
+    skewingDeltaMax: 0.15,
+    stickDelta: 0.15,
+    showTimeout: 20,
+    hideOnLeave: true,
+    hideTimeout: 300,
+    hideMediaTimeout: 300
+});
+    </script>
     <script>
          function sendMail(){
             var templateParams= {
